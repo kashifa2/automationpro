@@ -85,11 +85,10 @@ public class Main {
         driver.quit();
     }
 
-
     @AfterTest
     public void teardown()
     {
-
+      driver.close();
     }
 
 
